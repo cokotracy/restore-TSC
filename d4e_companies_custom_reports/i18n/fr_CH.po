@@ -1,0 +1,222 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* d4e_companies_custom_reports
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-29 09:57+0000\n"
+"PO-Revision-Date: 2021-01-29 09:57+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid ""
+"&amp;nbsp;\n"
+"                                                            <span>on</span>"
+msgstr ""
+"&amp;nbsp;\n"
+"                                                        <span>sur</span>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_clean
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_standard
+msgid ", BIC Code:&amp;nbsp;"
+msgstr ", Code BIC:&amp;nbsp;"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_clean
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_standard
+msgid ", IBAN:&amp;nbsp;"
+msgstr ""
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid ""
+"<br/>\n"
+"                            Please use the following communication for your payment :"
+msgstr ""
+"<br/>\n"
+"                            Merci d'utiliser la communication suivante pour votre paiement:"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                        <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Montant</span>\n"
+"                                    <span groups=\"account.group_show_line_subtotals_tax_included\">Prix Total</span>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<span>Description</span>"
+msgstr ""
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<span>Disc.%</span>"
+msgstr "<span>Remise%</span>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<span>Quantity</span>"
+msgstr "<span>Quantité</span>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<span>Source Document</span>"
+msgstr "<span>Document source</span>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<span>Taxes</span>"
+msgstr ""
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<span>Unit Price</span>"
+msgstr "<span>Prix unitaire</span>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.report_saleorder_document_inherited
+msgid "<span>Validity of the offer:&amp;nbsp;</span>"
+msgstr "<span>Validité de l’offre:&amp;nbsp;</span>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Sous-total</strong>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid ""
+"<strong class=\"text-center\">Scan me with your banking app.</strong>\n"
+"                                <br/>\n"
+"                                <br/>"
+msgstr ""
+"<strong class=\"text-center\">Scannez-moi avec votre application bancaire.</strong>\n"
+"                            <br/>\n"
+"                            <br/>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid ""
+"<strong class=\"text-center\">The SEPA QR Code informations are not set correctly.\n"
+"                                </strong>\n"
+"                                <br/>"
+msgstr ""
+"<strong class=\"text-center\">Les informations du QR Code ne sont pas correctement configurées.\n"
+"                                </strong>\n"
+"                                <br/>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_clean
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_standard
+msgid "<strong>Bank Details:&amp;nbsp;</strong>"
+msgstr "<strong>Coordonnées bancaires:&amp;nbsp;</strong>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<strong>Customer Code:</strong>"
+msgstr "<strong>Numéro de client :</strong>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<strong>Due Date:</strong>"
+msgstr "<strong>Date d'échéance :</strong>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<strong>Invoice Date:</strong>"
+msgstr "<strong>Date de la facture :</strong>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<strong>Reference:</strong>"
+msgstr "<strong>Référence :</strong>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<strong>Source:</strong>"
+msgstr ""
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<strong>Subtotal</strong>"
+msgstr "<strong>Sous-total</strong>"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "<strong>Total</strong>"
+msgstr ""
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_clean
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_standard
+msgid "Bank:&amp;nbsp;"
+msgstr "Banque:&amp;nbsp;"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "Cancelled Invoice"
+msgstr "Facture annulée"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "Credit Note"
+msgstr "Avoir"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "Draft Invoice"
+msgstr "Facture en brouillon"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_clean
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_standard
+msgid "Footer"
+msgstr "Bas de page"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_clean
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_standard
+msgid "Footer SWISS Régulation & Automatisme"
+msgstr "Bas de page SWISS Régulation & Automatisme"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_clean
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_standard
+msgid "Footer TSC"
+msgstr "Bas de page TSC"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "Invoice"
+msgstr "Facture"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_external_layout_standard
+msgid "Logo"
+msgstr ""
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "Tax ID"
+msgstr "N° TVA"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "Vendor Bill"
+msgstr "Facture fournisseur"
+
+#. module: d4e_companies_custom_reports
+#: model_terms:ir.ui.view,arch_db:d4e_companies_custom_reports.tsc_custom_report_invoice_document
+msgid "Vendor Credit Note"
+msgstr "Avoir de fournisseur"

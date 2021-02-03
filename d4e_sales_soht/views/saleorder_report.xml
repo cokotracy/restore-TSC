@@ -1,0 +1,29 @@
+<odoo>
+    <data>
+        <template id="report_saleorder_document_ht" inherit_id="sale.report_saleorder_document">
+            <xpath expr="//td[@name='td_amount_untaxed_label']" position="replace">
+                <td name="td_amount_untaxed_label"><strong>Total</strong></td>
+            </xpath>
+            <xpath expr="//t[@t-foreach='doc.amount_by_group']" position="replace"/>
+            <xpath expr="//tr[hasclass('o_total')]" position="replace"/>
+
+            <xpath expr="//th[@name='th_taxes']" position="replace"/>
+            <xpath expr="//th[@name='th_subtotal']/t[@groups='account.group_show_line_subtotals_tax_included']"
+                   position="replace"/>
+            <xpath expr="//td[@name='td_taxes']" position="replace"/>
+            <xpath expr="//td[@name='td_subtotal']/span[@t-field='line.price_total']" position="replace"/>
+            <xpath expr="//td[@name='td_section_subtotal']" position="replace">
+                <td name="td_section_subtotal" colspan="99">
+                    <t t-if="current_subtotal != 0 ">
+                        <strong class="mr16">Subtotal</strong>
+                        <span
+                                t-esc="current_subtotal"
+                                t-options='{"widget": "monetary", "display_currency": doc.pricelist_id.currency_id}'
+                        />
+                    </t>
+                </td>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

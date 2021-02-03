@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!-- Inherit Form View to Modify it -->
+    <record id="view_sale_advance_payment_inv_inh" model="ir.ui.view">
+        <field name="name">Invoice Orders</field>
+        <field name="model">sale.advance.payment.inv</field>
+        <field name="inherit_id" ref="sale.view_sale_advance_payment_inv"/>
+        <field name="arch" type="xml">
+
+            <xpath expr="//field[@name='deposit_taxes_id']" position="after">
+<!--                <field name="solde" invisible="1"/>-->
+
+                <field name="situation_amount"
+                       attrs="{'required': [('advance_payment_method', '=', 'situation')], 'invisible': [('advance_payment_method', '!=','situation')]}"
+                       class="oe_inline"/>
+            </xpath>
+
+        </field>
+    </record>
+
+  <record id="sale.action_view_sale_advance_payment_inv" model="ir.actions.act_window">
+        <field name="context">{'is_solde': True}</field>
+    </record>
+
+</odoo>

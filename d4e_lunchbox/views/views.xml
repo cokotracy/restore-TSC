@@ -1,0 +1,62 @@
+<odoo>
+    <data>
+
+
+        <record id="amounts_list_view_tree" model="ir.ui.view">
+            <field name="name">amounts_list_view_tree</field>
+            <field name="model">custom.amount</field>
+            <field name="arch" type="xml">
+                <tree string="amounts_list_tree">
+                    <field name="name"/>
+                    <field name="value"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="amounts_list_view_form" model="ir.ui.view">
+            <field name="name">amounts_list_view_form</field>
+            <field name="model">custom.amount</field>
+            <field name="arch" type="xml">
+                <form string="amounts_list_form">
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="value"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="amounts_list_action" model="ir.actions.act_window">
+            <field name="name">Amounts List</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">custom.amount</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+        <!-- This Menu Item must have a parent and an action -->
+        <menuitem id="amounts_list_menu"
+                  parent="project.menu_project_config"
+                  action="amounts_list_action" sequence="3"/>
+
+
+        <record id="hr_timesheet_line_tree_inherit" model="ir.ui.view">
+            <field name="name">account.analytic.line.tree.hr_timesheet</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="hr_timesheet.timesheet_view_tree_user"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='unit_amount']" position="after">
+                    <field name="lunchbox"/>
+                    <field name="custom_amounts_list"/>
+                    <field name="custom_amount" sum="Total"/>
+                    <field name="real_amount" sum="Total" optional="hide"/>
+                    <button name="copy" type="object" class="fa fa-copy">
+                    </button>
+                </xpath>
+
+            </field>
+        </record>
+
+    </data>
+</odoo>

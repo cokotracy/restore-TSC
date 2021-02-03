@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+
+        <template id="external_layout_clean_isr" inherit_id="web.external_layout_clean">
+            <xpath expr="//div[@name='company_address']" position="attributes">
+                <attribute name="style">padding-top:20px;padding-right:20px;</attribute>
+            </xpath>
+            <xpath expr="//div/div[@class='o_clean_header']/div/div" position="attributes">
+                <attribute name="style">padding-top:20px;</attribute>
+            </xpath>
+        </template>
+
+    </data>
+</odoo>

@@ -1,0 +1,25 @@
+<odoo>
+    <data>
+        <!-- Inherit Form View to Modify it -->
+        <record id="view_partner_form_inherit" model="ir.ui.view">
+            <field name="name">res.partner.form</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//div[@name='button_box']" position="inside">
+                        <button class="oe_stat_button" type="object"
+                                name="action_open_projects" icon="fa-puzzle-piece">
+                            <field string="Projects" name="project_count" widget="statinfo"/>
+                        </button>
+                </xpath>
+
+                <xpath expr="//div[@role='alert']" position="after">
+                    <header>
+                        <button string="Create Project" type="object" name="add_project" class="oe_highlight"/>
+                    </header>
+                </xpath>
+
+            </field>
+        </record>
+    </data>
+</odoo>

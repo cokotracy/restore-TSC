@@ -1,0 +1,60 @@
+<odoo>
+  <record id="edit_project" model="ir.ui.view">
+    <field name="name">project.project.form</field>
+    <field name="model">project.project</field>
+    <field name="inherit_id" ref="project.edit_project"/>
+    <field name="arch" type="xml">
+      <field name="partner_id" position="after">
+        <field name="agency_id"/>
+      </field>
+      <field name="name" position="attributes">
+        <attribute name="readonly">0</attribute>
+      </field>
+      <xpath expr="//field[@name='partner_id']/parent::group/parent::group" position="after">
+        <separator string="Quotations"/>
+        <field name="sale_order_ids"
+               nolabel="1"
+               context="{'form_view_ref': 'sale_timesheet.view_order_form_inherit_sale_timesheet','default_agency_id': agency_id, 'default_analytic_account_id': analytic_account_id}"/>
+      </xpath>
+      <xpath expr="//notebook" position="inside">
+        <page string="Description">
+          <field name="description" nolabel="1"/>
+        </page>
+      </xpath>
+      <button name="action_make_billable" position="replace">
+        <button name="%(d4e_agencies_management.action_quotations_with_onboarding)d"
+                type="action"
+                string="Create quotation"
+                class="oe_highlight"
+                context="{'default_project_id': id, 'default_agency_id': agency_id, 'default_analytic_account_id': analytic_account_id, 'default_partner_id': partner_id}"/>
+      </button>
+    </field>
+  </record>
+
+  <record id="view_project_project_filter" model="ir.ui.view">
+    <field name="name">project.project.select</field>
+    <field name="model">project.project</field>
+    <field name="inherit_id" ref="project.view_project_project_filter"/>
+    <field name="arch" type="xml">
+      <field name="name" position="after">
+        <field name="agency_id"/>
+      </field>
+      <filter name="Partner" position="after">
+        <filter string="Agency" name="agency" context="{'group_by': 'agency_id'}"/>
+      </filter>
+    </field>
+  </record>
+
+  <record id="view_task_form2" model="ir.ui.view">
+    <field name="name">project.task.form</field>
+    <field name="model">project.task</field>
+    <field name="inherit_id" ref="project.view_task_form2"/>
+    <field name="arch" type="xml">
+      <field name="user_id" position="after">
+        <field name="agency_id"/>
+      </field>
+    </field>
+  </record>
+
+
+</odoo>

@@ -1,0 +1,26 @@
+<odoo>
+  <data>
+        <!-- Inherit Form View to Modify it -->
+    <record id="view_order_form_package" model="ir.ui.view">
+        <field name="name">sale.order.form</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="object" required="1"/>
+            </xpath>
+        </field>
+    </record>
+    <!-- Inherit Form View to Modify it -->
+    <record id="view_order_tree_package" model="ir.ui.view">
+        <field name="name">sale.order.tree</field>
+        <field name="model">sale.order</field>
+        <field name="inherit_id" ref="sale.view_quotation_tree_with_onboarding"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="object" optional="show"/>
+            </xpath>
+        </field>
+    </record>
+  </data>
+</odoo>

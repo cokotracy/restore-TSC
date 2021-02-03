@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_d4e_invoice_situation_d4e_invoice_situation,d4e_invoice_situation.d4e_invoice_situation,model_d4e_invoice_situation_d4e_invoice_situation,base.group_user,1,1,1,1

@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record id="hr_timesheet_line_tree_inherit2" model="ir.ui.view">
+            <field name="name">account.analytic.line.tree.hr_timesheet</field>
+            <field name="model">account.analytic.line</field>
+            <field name="inherit_id" ref="hr_timesheet.timesheet_view_tree_user"/>
+            <field name="arch" type="xml">
+
+                <xpath expr="//field[@name='date']" position="after">
+                    <field name="weeknumber" readonly="1"/>
+
+                </xpath>
+
+            </field>
+        </record>
+    </data>
+</odoo>

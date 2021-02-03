@@ -1,1 +1,1 @@
-# restore-TSC
+# tsc
