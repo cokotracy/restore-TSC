@@ -1,0 +1,27 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* d4e_sales_soht
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-08 09:26+0000\n"
+"PO-Revision-Date: 2020-12-08 09:26+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: d4e_sales_soht
+#: model_terms:ir.ui.view,arch_db:d4e_sales_soht.report_invoice_document_ht
+#: model_terms:ir.ui.view,arch_db:d4e_sales_soht.report_saleorder_document_ht
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr "<strong class=\"mr16\">Sous-total</strong>"
+
+#. module: d4e_sales_soht
+#: model_terms:ir.ui.view,arch_db:d4e_sales_soht.report_saleorder_document_ht
+msgid "<strong>Total</strong>"
+msgstr "<strong>Total HT</strong>"

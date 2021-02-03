@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="res_config_settings_view_form_weeknumber" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.weeknumber</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="10"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                <div class="app_settings_block" data-string="WeekNumber" string="WeekNumber"
+                     data-key="d4e_timesheet_weeknumber">
+                    <h2>Recompute timesheet lines week number values</h2>
+                    <div class="col-12 o_setting_box" id="website_action_setting"
+                         style="margin-left: 30px; margin-bottom: 16px; margin-top: 30px;">
+                        <button name="recompute_weeknumber_values" type="object" string="Update WeekNumber Values"
+                                class="btn btn-primary"
+                                icon="fa-play"/>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

@@ -1,0 +1,46 @@
+<odoo>
+  <record id="sale_subscription_view_form" model="ir.ui.view">
+    <field name="name">sale.subscription.form.view</field>
+    <field name="model">sale.subscription</field>
+    <field name="inherit_id" ref="sale_subscription.sale_subscription_view_form"/>
+    <field name="arch" type="xml">
+      <button name="recurring_invoice" position="after">
+        <button name="generate_sales"
+                type="object"
+                string="Generate sales orders"
+                class="oe_highlight"/>
+      </button>
+      <field name="partner_id" position="after">
+        <field name="agency_id" required="1"/>
+      </field>
+      <field name="date" position="before">
+        <field name="date_stop" required="1"/>
+      </field>
+    </field>
+  </record>
+
+  <record id="sale_subscription_view_search" model="ir.ui.view">
+    <field name="name">sale.subscription.search</field>
+    <field name="model">sale.subscription</field>
+    <field name="inherit_id" ref="sale_subscription.sale_subscription_view_search"/>
+    <field name="arch" type="xml">
+      <field name="partner_id" position="after">
+        <field name="agency_id"/>
+      </field>
+      <filter name="customer" position="after">
+        <filter string="Agency" name="agency" domain="[]" context="{'group_by':'agency_id'}"/>
+      </filter>
+    </field>
+  </record>
+
+  <record id="sale_order_view_tree_subscription" model="ir.ui.view">
+    <field name="name">sale.order.list.subscription</field>
+    <field name="model">sale.order</field>
+    <field name="inherit_id" ref="sale_subscription.sale_order_view_tree_subscription"/>
+    <field name="arch" type="xml">
+      <field name="user_id" position="after">
+        <field name="agency_id"/>
+      </field>
+    </field>
+  </record>
+</odoo>

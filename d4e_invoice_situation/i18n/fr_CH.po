@@ -1,0 +1,86 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* d4e_invoice_situation
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-10 07:39+0000\n"
+"PO-Revision-Date: 2020-08-10 07:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: d4e_invoice_situation
+#: model:ir.model.fields,help:d4e_invoice_situation.field_sale_advance_payment_inv__advance_payment_method
+msgid ""
+"A standard invoice is issued with all the order lines ready for invoicing,"
+"         according to their invoicing policy (based on ordered or delivered "
+"quantity)."
+msgstr ""
+"Une facture standard est émise avec toutes les lignes de commande prêtes à "
+"être facturées,         according to their invoicing policy (based on "
+"ordered or delivered quantity)."
+
+#. module: d4e_invoice_situation
+#: model:ir.model,name:d4e_invoice_situation.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: d4e_invoice_situation
+#: model:ir.model.fields,field_description:d4e_invoice_situation.field_sale_advance_payment_inv__advance_payment_method
+msgid "Create Invoice"
+msgstr "Créer une facture"
+
+#. module: d4e_invoice_situation
+#: model:ir.model,name:d4e_invoice_situation.model_account_move
+msgid "Journal Entries"
+msgstr "Pièces comptables"
+
+#. module: d4e_invoice_situation
+#: model:ir.model,name:d4e_invoice_situation.model_sale_advance_payment_inv
+msgid "Sales Advance Payment Invoice"
+msgstr "Facture de paiement d'avance"
+
+#. module: d4e_invoice_situation
+#: model:ir.model.fields,field_description:d4e_invoice_situation.field_account_move__is_situation
+#: model:ir.model.fields.selection,name:d4e_invoice_situation.selection__sale_advance_payment_inv__advance_payment_method__situation
+msgid "Situation"
+msgstr "Situation"
+
+#. module: d4e_invoice_situation
+#: model:ir.model.fields,field_description:d4e_invoice_situation.field_res_config_settings__situation_account
+msgid "Situation Account"
+msgstr "Compte de situation"
+
+#. module: d4e_invoice_situation
+#: model:ir.model.fields,field_description:d4e_invoice_situation.field_sale_advance_payment_inv__situation_amount
+msgid "Situation Amount"
+msgstr "Montant de situation"
+
+#. module: d4e_invoice_situation
+#: model_terms:ir.ui.view,arch_db:d4e_invoice_situation.res_config_settings_view_form_situation
+msgid "Situation Invoice Account"
+msgstr "Compte de facture de situation"
+
+#. module: d4e_invoice_situation
+#: code:custom_addons_v13/tsc/d4e_invoice_situation/wizard/sale_make_inv_advance.py:0
+#, python-format
+msgid "Market price TE : "
+msgstr "Montant du marché HT : "
+
+#. module: d4e_invoice_situation
+#: code:custom_addons_v13/tsc/d4e_invoice_situation/wizard/sale_make_inv_advance.py:0
+#, python-format
+msgid " of "
+msgstr " du "
+
+#. module: d4e_invoice_situation
+#: code:custom_addons_v13/tsc/d4e_invoice_situation/wizard/sale_make_inv_advance.py:0
+#, python-format
+msgid " depending on the progress of the done work"
+msgstr " selon avancement des travaux réalisés"

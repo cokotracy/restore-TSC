@@ -1,0 +1,535 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* d4e_project_dashboard
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-06-24 09:30+0000\n"
+"PO-Revision-Date: 2020-06-24 09:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_res_config_settings__benefice_product_id
+msgid "Benefice Product"
+msgstr "Article Bénéfice"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__billing
+msgid "Billing"
+msgstr "Facturation"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__billing_percent
+msgid "Billing %"
+msgstr "Facturation %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model,name:d4e_project_dashboard.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__cost_price
+msgid "Cost Price"
+msgstr "Prix de Revient"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__cost_price_percent
+msgid "Cost Price %"
+msgstr "Prix de Revient %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_billing
+msgid "Cumulated - Billing"
+msgstr "Cumulé - Facturation"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_billing_percent
+msgid "Cumulated - Billing (%)"
+msgstr "Cumulé - Facturation (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_cost_price
+msgid "Cumulated - Cost Price"
+msgstr "Cumulé - Prix de Revient"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_cost_price_percent
+msgid "Cumulated - Cost Price (%)"
+msgstr "Cumulé - Prix de Revient (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_direct_costs
+msgid "Cumulated - Direct Costs"
+msgstr "Cumulé - Coûts Directs"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_direct_costs_percent
+msgid "Cumulated - Direct Costs (%)"
+msgstr "Cumulé - Coûts Directs (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_indirect_costs
+msgid "Cumulated - Indirect Costs"
+msgstr "Cumulé - Frais généraux"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_indirect_costs_percent
+msgid "Cumulated - Indirect Costs (%)"
+msgstr "Cumulé - Frais généraux (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_hour_price
+msgid "Cumulated - Nb of Hours"
+msgstr "Cumulé - Nb Heures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_hours_percent
+msgid "Cumulated - Nb of Hours (%)"
+msgstr "Cumulé - Nb Heures (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_rental
+msgid "Cumulated - Rental"
+msgstr "Cumulé - Location"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_rental_percent
+msgid "Cumulated - Rental (%)"
+msgstr "Cumulé - Location (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_hours
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_result
+msgid "Cumulated - Result"
+msgstr "Cumulé - Résultat"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_result_percent
+msgid "Cumulated - Result (%)"
+msgstr "Cumulé - Résultat (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_subcontractor
+msgid "Cumulated - Subcontractor"
+msgstr "Cumulé - Sous-Traitants"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_subcontractor_percent
+msgid "Cumulated - Subcontractor (%)"
+msgstr "Cumulé - Sous-Traitants (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_supplies
+msgid "Cumulated - Supplies"
+msgstr "Cumulé - Fournitures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_supplies_percent
+msgid "Cumulated - Supplies (%)"
+msgstr "Cumulé - Fournitures (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_various
+msgid "Cumulated - Various"
+msgstr "Cumulé - Divers"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_various_percent
+msgid "Cumulated - Various (%)"
+msgstr "Cumulé - Divers (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_workforce
+msgid "Cumulated - Workforce"
+msgstr "Cumulé - Main d'œuvre"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__cum_workforce_percent
+msgid "Cumulated - Workforce (%)"
+msgstr "Cumulé - Main d'œuvre (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__dashboard_table
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__sale_dashboard
+#: model_terms:ir.ui.view,arch_db:d4e_project_dashboard.edit_project_form_inherit
+#: model_terms:ir.ui.view,arch_db:d4e_project_dashboard.view_order_form_dashboard
+msgid "Dashboard"
+msgstr "Tableau de Bord"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__direct_costs
+msgid "Direct Costs"
+msgstr "Coûts Directs"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__direct_costs_percent
+msgid "Direct Costs %"
+msgstr "Coûts Directs %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__indirect_costs
+msgid "Indirect Costs"
+msgstr "Frais généraux"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__indirect_costs_percent
+msgid "Indirect Costs %"
+msgstr "Frais généraux %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_res_config_settings__indirect_costs_product_id
+msgid "Indirect Costs Product"
+msgstr "Article Frais généraux"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_billing
+msgid "Launch - Billing"
+msgstr "Lancement - Facturation"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_billing_percent
+msgid "Launch - Billing (%)"
+msgstr "Lancement - Facturation (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_cost_price
+msgid "Launch - Cost Price"
+msgstr "Lancement - Prix de Revient"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_cost_price_percent
+msgid "Launch - Cost Price (%)"
+msgstr "Lancement - Prix de Revient (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_direct_costs
+msgid "Launch - Direct Costs"
+msgstr "Lancement - Coûts Directs"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_direct_costs_percent
+msgid "Launch - Direct Costs (%)"
+msgstr "Lancement - Coûts Directs (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_indirect_costs
+msgid "Launch - Indirect Costs"
+msgstr "Lancement - Frais généraux"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_indirect_costs_percent
+msgid "Launch - Indirect Costs (%)"
+msgstr "Lancement - Frais généraux (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_hours
+msgid "Launch - Nb of Hours"
+msgstr "Lancement - Nb Heures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_hour_price
+msgid "Launch - Price of hour"
+msgstr "Lancement - Prix de l'heure"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_rental
+msgid "Launch - Rental"
+msgstr "Lancement - Location"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_rental_percent
+msgid "Launch - Rental (%)"
+msgstr "Lancement - Location (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_result
+msgid "Launch - Result"
+msgstr "Lancement - Résultat"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_result_percent
+msgid "Launch - Result (%)"
+msgstr "Lancement - Résultat (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_subcontractor
+msgid "Launch - Subcontractor"
+msgstr "Lancement - Sous-Traitants"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_subcontractor_percent
+msgid "Launch - Subcontractor (%)"
+msgstr "Lancement - Sous-Traitants (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_supplies
+msgid "Launch - Supplies"
+msgstr "Lancement - Fournitures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_supplies_percent
+msgid "Launch - Supplies (%)"
+msgstr "Lancement - Fournitures (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_various
+msgid "Launch - Various"
+msgstr "Lancement - Divers"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_various_percent
+msgid "Launch - Various (%)"
+msgstr "Lancement - Divers (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_workforce
+msgid "Launch - Workforce"
+msgstr "Lancement - Main d'œuvre"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__launch_workforce_percent
+msgid "Launch - Workforce (%)"
+msgstr "Lancement - Main d'œuvre (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_billing
+msgid "Month - Billing"
+msgstr "Mois - Facturation"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_billing_percent
+msgid "Month - Billing (%)"
+msgstr "Mois - Facturation (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_cost_price
+msgid "Month - Cost Price"
+msgstr "Mois - Prix de Revient"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_cost_price_percent
+msgid "Month - Cost Price (%)"
+msgstr "Mois - Prix de Revient (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_direct_costs
+msgid "Month - Direct Costs"
+msgstr "Mois - Coûts Directs"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_direct_costs_percent
+msgid "Month - Direct Costs (%)"
+msgstr "Mois - Coûts Directs (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_indirect_costs
+msgid "Month - Indirect Costs"
+msgstr "Mois - Frais généraux"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_indirect_costs_percent
+msgid "Month - Indirect Costs (%)"
+msgstr "Mois - Frais généraux (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_hours
+msgid "Month - Nb of Hours"
+msgstr "Mois - Nb Heures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_hours_percent
+msgid "Month - Nb of Hours (%)"
+msgstr "Mois - Nb Heures (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_hour_price
+msgid "Month - Price of Hour"
+msgstr "Mois - Prix de l'heure"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_rental
+msgid "Month - Rental"
+msgstr "Mois - Location"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_rental_percent
+msgid "Month - Rental (%)"
+msgstr "Mois - Location (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_result
+msgid "Month - Result"
+msgstr "Mois - Résultat"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_result_percent
+msgid "Month - Result (%)"
+msgstr "Mois - Résultat (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_subcontractor
+msgid "Month - Subcontractor"
+msgstr "Mois - Sous-Traitants"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_subcontractor_percent
+msgid "Month - Subcontractor (%)"
+msgstr "Mois - Sous-Traitants (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_supplies
+msgid "Month - Supplies"
+msgstr "Mois - Fournitures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_supplies_percent
+msgid "Month - Supplies (%)"
+msgstr "Mois - Fournitures (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_various
+msgid "Month - Various"
+msgstr "Mois - Divers"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_various_percent
+msgid "Month - Various (%)"
+msgstr "Mois - Divers (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_workforce
+msgid "Month - Workforce"
+msgstr "Mois - Main d'œuvre"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__month_workforce_percent
+msgid "Month - Workforce (%)"
+msgstr "Mois - Main d'œuvre (%)"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__nb_hours
+msgid "Nb of Hours"
+msgstr "Nb Heures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__hour_price
+msgid "Price of hour"
+msgstr "Prix de l'heure"
+
+#. module: d4e_project_dashboard
+#: model:ir.model,name:d4e_project_dashboard.model_project_project
+msgid "Project"
+msgstr "Projet"
+
+#. module: d4e_project_dashboard
+#: model_terms:ir.ui.view,arch_db:d4e_project_dashboard.res_config_settings_view_form_1
+msgid "Project Dashboard Products &amp; Categories"
+msgstr " Produits &amp; Catégories du Tableau de Bord de Projet "
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__rental
+msgid "Rental"
+msgstr "Location"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__rental_percent
+msgid "Rental %"
+msgstr "Location %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_res_config_settings__rental_product_category_id
+msgid "Rental Category"
+msgstr "Catégorie Location"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__result
+msgid "Result"
+msgstr "Résultat"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__result_percent
+msgid "Result %"
+msgstr "Résultat %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model,name:d4e_project_dashboard.model_sale_order
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__subcontractor
+msgid "Subcontractor"
+msgstr "Sous-Traitants"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__subcontractor_percent
+msgid "Subcontractor %"
+msgstr "Sous-Traitants %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_res_config_settings__subcontractor_product_category_id
+msgid "Subcontractor Category"
+msgstr "Catégorie Sous-Traitants"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__supplies
+msgid "Supplies"
+msgstr "Fournitures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__supplies_percent
+msgid "Supplies %"
+msgstr "Fournitures %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_res_config_settings__supplies_product_id
+msgid "Supplies Product"
+msgstr "Article Fournitures"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_project_project__timesheet_lines
+msgid "Timesheet Lines"
+msgstr "Lignes de feuille de temps"
+
+#. module: d4e_project_dashboard
+#: model_terms:ir.ui.view,arch_db:d4e_project_dashboard.res_config_settings_view_form_1
+msgid "Update Values"
+msgstr "Mise à jour des valeurs"
+
+#. module: d4e_project_dashboard
+#: model_terms:ir.ui.view,arch_db:d4e_project_dashboard.res_config_settings_view_form_1
+msgid "Update stored values"
+msgstr "Mise à jour des valeurs stockées"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__various
+msgid "Various"
+msgstr "Divers"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__various_percent
+msgid "Various %"
+msgstr "Divers %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__workforce
+msgid "Worforce"
+msgstr "Main d'œuvre %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_sale_order__workforce_percent
+msgid "Worforce %"
+msgstr "Main d'œuvre %"
+
+#. module: d4e_project_dashboard
+#: model:ir.model.fields,field_description:d4e_project_dashboard.field_res_config_settings__workforce_category_id
+msgid "Workforce Category"
+msgstr "Catégorie Main d'œuvre"

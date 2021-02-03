@@ -1,0 +1,34 @@
+<odoo>
+    <data>
+
+        <template id="cash_rounding_report_invoice_document" inherit_id="account.report_invoice_document">
+            <xpath expr="//t[@t-foreach='o.amount_by_group']" position="replace">
+                <t t-foreach="o.amount_by_group" t-as="amount_by_group">
+                    <tr style="">
+                        <t t-if="len(o.line_ids.filtered(lambda line: line.tax_line_id)) == 1 and o.amount_untaxed == amount_by_group[2]">
+                            <td><span t-esc="amount_by_group[0]"/></td>
+                            <td class="text-right o_price_total">
+                                <span t-esc="amount_by_group[3]"/>
+                            </td>
+                        </t>
+                        <t t-else="">
+                            <td>
+                                <t t-if="(o.amount_untaxed - amount_by_group[2]) &lt; 0.05">
+                                    <span t-esc="amount_by_group[0]"/>
+                                </t>
+                                <t t-else="">
+                                    <span t-esc="amount_by_group[0]"/>
+                                    <span>&amp;nbsp;<span>on</span>
+                                        <t t-esc="amount_by_group[4]"/>
+                                    </span></t>
+                            </td>
+                            <td class="text-right o_price_total">
+                                <span t-esc="amount_by_group[3]"/>
+                            </td>
+                        </t>
+                    </tr>
+                </t>
+            </xpath>
+        </template>
+    </data>
+</odoo>

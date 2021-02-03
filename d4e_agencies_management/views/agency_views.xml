@@ -1,0 +1,46 @@
+<odoo>
+  <record id="view_agency_form" model="ir.ui.view">
+    <field name="name">agency.form</field>
+    <field name="model">agency.agency</field>
+    <field name="arch" type="xml">
+      <form string="Agency">
+        <sheet>
+          <div class="oe_title">
+            <div class="oe_edit_only">
+              <label for="name"/>
+            </div>
+            <h1>
+              <field name="name"/>
+            </h1>
+          </div>
+          <group>
+            <field name="sequence" readonly="1"/>
+          </group>
+        </sheet>
+      </form>
+    </field>
+  </record>
+
+  <record id="view_agency_tree" model="ir.ui.view">
+    <field name="name">agency.tree</field>
+    <field name="model">agency.agency</field>
+    <field name="arch" type="xml">
+      <tree string="Agency">
+        <field name="name"/>
+      </tree>
+    </field>
+  </record>
+
+  <record id="action_agency" model="ir.actions.act_window">
+    <field name="name">Agencies</field>
+    <field name="res_model">agency.agency</field>
+    <field name="view_mode">tree,form</field>
+  </record>
+
+  <menuitem id="agency_menu"
+            action="action_agency"
+            name="Agencies"
+            parent="sale.menu_sale_config"/>
+
+
+</odoo>

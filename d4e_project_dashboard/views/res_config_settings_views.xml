@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_config_settings_view_form_1" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.project1</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="10"/>
+        <field name="inherit_id" ref="project.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@name='project_time']" position="after">
+                <h2>Update stored values</h2>
+                <div class="col-12 o_setting_box" id="website_action_setting"
+                     style="margin-left: 30px; margin-bottom: 16px; margin-top: 30px;">
+                    <button name="recompute_stored_values" type="object" string="Update Values" class="btn btn-primary"
+                            icon="fa-play"/>
+                </div>
+                <h2>Project Dashboard Products &amp; Categories</h2>
+                <div class="row mt16 o_settings_container">
+                    <div class="content-group">
+                        <div class="mt16">
+                            <label for="workforce_category_id" class="o_light_label"/>
+                            <field name="workforce_category_id" class="oe_inline"/>
+                        </div>
+                    </div>
+                    <div class="content-group">
+                        <div class="mt16">
+                            <label for="indirect_costs_product_id" class="o_light_label"/>
+                            <field name="indirect_costs_product_id" class="oe_inline"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt16 o_settings_container">
+                    <div class="content-group" style="margin-right:70px">
+                        <div class="mt16">
+                            <label for="benefice_product_id" class="o_light_label"/>
+                            <field name="benefice_product_id" class="oe_inline"/>
+                        </div>
+                    </div>
+                </div>
+
+            </xpath>
+        </field>
+    </record>
+</odoo>

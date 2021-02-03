@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_config_settings_view_form" model="ir.ui.view">
+        <field name="name">res.config.settings.view.form.inherit.account</field>
+        <field name="model">res.config.settings</field>
+        <field name="priority" eval="40"/>
+        <field name="inherit_id" ref="base.res_config_settings_view_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//div[hasclass('settings')]" position="inside">
+                <div class="app_settings_block" data-string="Default Tasks" string="Default Tasks"
+                     data-key="project_default_tasks_7g">
+                    <h2>Affect default tasks to all projects</h2>
+                    <div class="col-12 o_setting_box" id="default_tasks_action_setting"
+                         style="margin-left: 30px; margin-bottom: 16px; margin-top: 30px;">
+                        <button name="affect_default_tasks" type="object" string="Run"
+                                class="btn btn-primary"
+                                icon="fa-play"/>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

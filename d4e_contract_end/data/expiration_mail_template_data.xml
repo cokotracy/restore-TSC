@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<data>
+		<record model="mail.template"
+			id="contract_expiration_mail_inherit">
+			<field name="name">Contract Expiration</field>
+			<field name="email_from">${object.user_id.email}</field>
+			<field name="subject">Contract Expiry Reminder </field>
+			<field name="model_id"
+				ref="base.model_res_partner" />
+			<field name="auto_delete" eval="False" />
+			<field name="email_to">${ctx.get('email_to')}</field>
+			<field name="body_html">
+		<![CDATA[ 
+<p>Hi ${object.name},
+<br/>
+</p>Your contract is going to expire in ${ctx.get('frequency')}.
+<p>Please take the necessary action.</p>
+<br/>
+<p>Thank you</p>
+		
+]]></field>
+</record>
+</data>
+</odoo>

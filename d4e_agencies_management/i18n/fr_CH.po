@@ -1,0 +1,335 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* d4e_agencies_management
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-12-09 09:02+0000\n"
+"PO-Revision-Date: 2020-12-09 09:02+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: d4e_agencies_management
+#: model:ir.actions.act_window,name:d4e_agencies_management.action_agency
+#: model:ir.ui.menu,name:d4e_agencies_management.agency_menu
+msgid "Agencies"
+msgstr "Agences"
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_agencies_report
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.view_agencies_report_pivot
+msgid "Agencies Analysis"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_account_move__agency_id
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__agency_id
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_project_project__agency_id
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_project_task__agency_id
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_order__agency_id
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.view_agency_form
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.view_agency_tree
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.view_project_project_filter
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.view_sales_order_filter
+msgid "Agency"
+msgstr "Agence"
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_agency_agency
+msgid "Agency Model"
+msgstr "Modèle d'agence"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency__sequence
+msgid "Agency Number"
+msgstr "Numéro d'agence"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__amount
+msgid "Amount"
+msgstr "Montant"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__amount_consumed
+msgid "Amount Consumed"
+msgstr "Consommé"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__amount_invoiced
+msgid "Amount Invoiced"
+msgstr "Commandé"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__amount_remaining
+msgid "Amount Remaining"
+msgstr "Restant"
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__partner_id
+msgid "Contract"
+msgstr "Contrat"
+
+#. module: d4e_agencies_management
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.edit_project
+msgid "Create quotation"
+msgstr "Créer un Devis"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency__create_uid
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency__create_date
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_res_partner__customer_number
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_res_users__customer_number
+msgid "Customer Number"
+msgstr "Numéro du client"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_order__customer_ref
+msgid "Customer Reference"
+msgstr "Référence Client"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_project_project__description
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.edit_project
+msgid "Description"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__display_name
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency__display_name
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__display_name
+msgid "Display Name"
+msgstr "Afficher Nom"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__expected_date
+msgid "Expected Date"
+msgstr "Date prévue"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__further
+msgid "Further"
+msgstr "Plus loin"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__id
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency__id
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__id
+msgid "ID"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_project_project__invoice_ids
+msgid "Invoices"
+msgstr "Factures"
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_account_move
+msgid "Journal Entries"
+msgstr "Pièces comptables"
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_account_move_line
+msgid "Journal Item"
+msgstr "Écriture comptable"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report____last_update
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency____last_update
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount____last_update
+msgid "Last Modified on"
+msgstr "Dernière modification le"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency__write_uid
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__write_uid
+msgid "Last Updated by"
+msgstr "Dernière mise à jour par"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency__write_date
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__write_date
+msgid "Last Updated on"
+msgstr "Dernière mise à jour le"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_1
+msgid "Month 1"
+msgstr "Mois 1"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_10
+msgid "Month 10"
+msgstr "Mois 10"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_11
+msgid "Month 11"
+msgstr "Mois 11"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_12
+msgid "Month 12"
+msgstr "Mois 12"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_2
+msgid "Month 2"
+msgstr "Mois 2"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_3
+msgid "Month 3"
+msgstr "Mois 3"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_4
+msgid "Month 4"
+msgstr "Mois 4"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_5
+msgid "Month 5"
+msgstr "Mois 5"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_6
+msgid "Month 6"
+msgstr "Mois 6"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_7
+msgid "Month 7"
+msgstr "Mois 7"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_8
+msgid "Month 8"
+msgstr "Mois 8"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__month_9
+msgid "Month 9"
+msgstr "Mois 9"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agency_agency__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_account_move__note
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_order__custom_note
+msgid "Note"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.view_order_form
+msgid "Planning"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_project_project
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_order__project_id
+msgid "Project"
+msgstr "Projet"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_account_move__project_id
+msgid "Projet"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.actions.act_window,name:d4e_agencies_management.action_quotations_with_onboarding
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.edit_project
+msgid "Quotations"
+msgstr "Devis"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_project_project__sale_order_ids
+msgid "Quotations / Sales Orders"
+msgstr "Devis / Bons de commande"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_agencies_report__sale_order_id
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_split_amount__order_id
+msgid "Sale Order"
+msgstr "Bon de commande"
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_sale_split_amount
+msgid "Sale Split Amount"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_sale_advance_payment_inv
+msgid "Sales Advance Payment Invoice"
+msgstr "Facture de paiement d'avance"
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_sale_order
+msgid "Sales Order"
+msgstr "Bon de commande"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,help:d4e_agencies_management.field_sale_order__project_id
+msgid "Select a non billable project on which tasks can be created."
+msgstr "Sélectionner un projet sur lequel des tâches peuvent être créées."
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_order__split_amount_ids
+msgid "Split Amount"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.model,name:d4e_agencies_management.model_project_task
+msgid "Task"
+msgstr "Tâche"
+
+#. module: d4e_agencies_management
+#: model:ir.model.fields,field_description:d4e_agencies_management.field_sale_order__total_split
+msgid "Total Split"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: model:ir.actions.act_window,name:d4e_agencies_management.action_agencies_report
+#: model:ir.ui.menu,name:d4e_agencies_management.agency_report_menu
+msgid "Workload"
+msgstr "Charges de travail"
+
+#. module: d4e_agencies_management
+#: model_terms:ir.ui.view,arch_db:d4e_agencies_management.view_order_form
+msgid "total"
+msgstr ""
+
+#. module: d4e_agencies_management
+#: code:tsc/d4e_agencies_management/models/sale.py:0
+#, python-format
+msgid "\nRealized during the week"
+msgstr "\nRéalisé en semaine"
+
+#. module: d4e_agencies_management
+#: code:tsc/d4e_agencies_management/models/sale.py:0
+#, python-format
+msgid "You must enter a customer ref to confirm quotation !"
+msgstr "Vous devez entrer une référence client pour confirmer le devis !"

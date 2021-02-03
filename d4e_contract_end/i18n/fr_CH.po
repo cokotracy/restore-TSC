@@ -1,0 +1,102 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* d4e_contract_end
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-15 07:37+0000\n"
+"PO-Revision-Date: 2020-09-15 07:37+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: d4e_contract_end
+#: model:mail.template,body_html:d4e_contract_end.contract_expiration_mail_inherit
+msgid ""
+"\n"
+"\t\t \n"
+"<p>Hi ${object.name},\n"
+"<br/>\n"
+"</p>Your contract is going to expire in ${ctx.get('frequency')}.\n"
+"<p>Please take the necessary action.</p>\n"
+"<br/>\n"
+"<p>Thank you</p>\n"
+"\t\t\n"
+msgstr ""
+"\n"
+"\t\t \n"
+"<p>Salut ${object.name},\n"
+"<br/>\n"
+"</p>Votre contrat va être expiré dans ${ctx.get('frequency')}.\n"
+"<p>Veuillez prendre les mesures nécessaires.</p>\n"
+"<br/>\n"
+"<p>Merci</p>\n"
+"\t\t\n"
+
+#. module: d4e_contract_end
+#: model_terms:ir.ui.view,arch_db:d4e_contract_end.employee_res_config_settings_view_form
+msgid "Choose Partner"
+msgstr "Choisir un contact"
+
+#. module: d4e_contract_end
+#: model:ir.model,name:d4e_contract_end.model_res_config_settings
+msgid "Config Settings"
+msgstr "Paramètres de config"
+
+#. module: d4e_contract_end
+#: model_terms:ir.ui.view,arch_db:d4e_contract_end.employee_res_config_settings_view_form
+msgid "Contract Expiry Reminder"
+msgstr "Rappel d'expiration du contrat"
+
+#. module: d4e_contract_end
+#: model:ir.actions.server,name:d4e_contract_end.contract_expiry_reminder_cron_ir_actions_server
+#: model:ir.cron,cron_name:d4e_contract_end.contract_expiry_reminder_cron
+#: model:ir.cron,name:d4e_contract_end.contract_expiry_reminder_cron
+msgid "Contract Expiry"
+msgstr "Expiration du contrat"
+
+#. module: d4e_contract_end
+#: model:mail.template,subject:d4e_contract_end.contract_expiration_mail_inherit
+msgid "Contract Expiry Reminder "
+msgstr "Rappel d'expiration du contrat"
+
+#. module: d4e_contract_end
+#: model:ir.model.fields,field_description:d4e_contract_end.field_hr_employee__contract_end_date
+msgid "Contrat end date"
+msgstr "Date de fin du contrat"
+
+#. module: d4e_contract_end
+#: model:ir.model,name:d4e_contract_end.model_hr_employee
+#: model:ir.model.fields.selection,name:d4e_contract_end.selection__res_config_settings__send_to__employee
+msgid "Employee"
+msgstr "Employé"
+
+#. module: d4e_contract_end
+#: model:ir.model.fields.selection,name:d4e_contract_end.selection__res_config_settings__send_to__other
+msgid "Other"
+msgstr "Autre"
+
+#. module: d4e_contract_end
+#: model:ir.model.fields,field_description:d4e_contract_end.field_res_config_settings__remind_before
+msgid "Remind Before"
+msgstr "Rappeler avant"
+
+#. module: d4e_contract_end
+#: model:ir.model.fields,field_description:d4e_contract_end.field_res_config_settings__send_to
+msgid "Send To"
+msgstr "Envoyer à"
+
+#. module: d4e_contract_end
+#: model_terms:ir.ui.view,arch_db:d4e_contract_end.employee_res_config_settings_view_form
+msgid "Week(s)"
+msgstr "Semaine(s)"
+
+#. module: d4e_contract_end
+#: model:ir.model.fields,field_description:d4e_contract_end.field_res_config_settings__partner_id
+msgid "person"
+msgstr "personne"

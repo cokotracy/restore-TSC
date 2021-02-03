@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="project_types_view_tree" model="ir.ui.view">
+        <field name="name">project_types_view_tree</field>
+        <field name="model">project.type</field>
+        <field name="arch" type="xml">
+            <tree string="Project">
+                <field name="code"/>
+                <field name="name"/>
+                <field name="price"/>
+                <field name="company_id"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="project_types_view_form" model="ir.ui.view">
+        <field name="name">project_types_view_form</field>
+        <field name="model">project.type</field>
+        <field name="arch" type="xml">
+            <form string="Project">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="code"/>
+                            <field name="name"/>
+                        </group>
+                        <group>
+                            <field name="price"/>
+                            <field name="company_id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="open_view_project_types" model="ir.actions.act_window">
+        <field name="name">Project Types</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">project.type</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem action="open_view_project_types" id="menu_projects_types" name="Project Types"
+              parent="project.menu_project_config" sequence="9"/>
+
+    <record id="edit_project_form_inherit" model="ir.ui.view">
+        <field name="name">edit.project.form</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.edit_project"/>
+        <field name="priority">23</field>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='name']" position="attributes">
+                <attribute name="readonly">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='user_id']" position="before">
+            </xpath>
+            <xpath expr="//field[@name='agency_id']" position="after">
+                <field name="project_name"/>
+                <field name="project_type" required="1"/>
+                <field name="price_per_hour"/>
+            </xpath>
+            <xpath expr="//field[@name='privacy_visibility']" position="after">
+                <field name="target_hour_cost"/>
+                <field name="total_cost"/>
+            </xpath>
+            <xpath expr="//field[@name='sale_order_ids']" position="after">
+                <separator string="Customer Invoices" widget="one2many"/>
+                <field name="invoices">
+                    <tree create="false">
+                        <field name="name"/>
+                        <field name="ref"/>
+                        <field name="x_studio_titre"/>
+                        <field name="amount_total" string="Total TTC"
+                               optional="hide" sum="Total TTC"/>
+                        <field name="amount_untaxed_signed" optional="show"
+                               string="Total HT" sum="Total HT"/>
+                    </tree>
+                </field>
+                <separator string="Vendor Bills" widget="one2many"/>
+                <field name="bills">
+                    <tree create="false">
+                        <field name="name"/>
+                        <field name="ref"/>
+                        <field name="x_studio_titre"/>
+                        <field name="amount_total" string="Total TTC" optional="hide" sum="Total TTC"/>
+                        <field name="amount_untaxed_signed" string="Total HT" optional="show" sum="Total HT"/>
+                    </tree>
+                </field>
+                <separator string="Dashboard"/>
+                <field name="dashboard_table" nolabel="1" readonly="1"></field>
+            </xpath>
+        </field>
+    </record>
+
+
+    <record id="view_project_project_filter_extended" model="ir.ui.view">
+        <field name="name">project.project.search</field>
+        <field name="model">project.project</field>
+        <field name="inherit_id" ref="project.view_project_project_filter"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+
+                <field name="launch_workforce"/>
+                <field name="launch_various"/>
+                <field name="launch_direct_costs"/>
+                <field name="launch_indirect_costs"/>
+                <field name="launch_cost_price"/>
+                <field name="launch_billing"/>
+                <field name="launch_result"/>
+                <field name="launch_hours"/>
+                <field name="launch_hour_price"/>
+
+
+                <field name="launch_workforce_percent"/>
+                <field name="launch_various_percent"/>
+                <field name="launch_direct_costs_percent"/>
+                <field name="launch_indirect_costs_percent"/>
+                <field name="launch_cost_price_percent"/>
+                <field name="launch_billing_percent"/>
+                <field name="launch_result_percent"/>
+
+
+                <field name="month_workforce"/>
+                <field name="month_various"/>
+                <field name="month_direct_costs"/>
+                <field name="month_indirect_costs"/>
+                <field name="month_cost_price"/>
+                <field name="month_billing"/>
+                <field name="month_result"/>
+                <field name="month_hours"/>
+                <field name="month_hour_price"/>
+
+
+                <field name="month_workforce_percent"/>
+                <field name="month_various_percent"/>
+                <field name="month_direct_costs_percent"/>
+                <field name="month_indirect_costs_percent"/>
+                <field name="month_cost_price_percent"/>
+                <field name="month_billing_percent"/>
+                <field name="month_result_percent"/>
+                <field name="month_hours_percent"/>
+
+
+                <field name="cum_workforce"/>
+                <field name="cum_various"/>
+                <field name="cum_direct_costs"/>
+                <field name="cum_indirect_costs"/>
+                <field name="cum_cost_price"/>
+                <field name="cum_billing"/>
+                <field name="cum_result"/>
+                <field name="cum_hours"/>
+                <field name="cum_hour_price"/>
+
+
+                <field name="cum_workforce_percent"/>
+                <field name="cum_various_percent"/>
+                <field name="cum_direct_costs_percent"/>
+                <field name="cum_indirect_costs_percent"/>
+                <field name="cum_cost_price_percent"/>
+                <field name="cum_billing_percent"/>
+                <field name="cum_result_percent"/>
+                <field name="cum_hours_percent"/>
+
+            </field>
+
+        </field>
+    </record>
+
+</odoo>

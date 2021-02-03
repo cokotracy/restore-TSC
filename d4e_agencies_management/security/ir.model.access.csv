@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_agency_agency,agency.agency.user,model_agency_agency,base.group_user,1,1,1,1
+access_agency_report,agency.report.user,model_agencies_report,base.group_user,1,1,1,1
+access_split_amount,split.amount.user,model_sale_split_amount,base.group_user,1,1,1,1
